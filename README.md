@@ -27,3 +27,6 @@ sudo mount -t drvfs C: /mnt/c -o metadata
 https://medium.com/@jrcharney/bash-on-ubuntu-on-windows-the-almost-complete-set-up-1dd3cb89b794
 
 now the only question is ... what are powerline fonts and which should I use?
+
+## helpful googles usually include "bash on ubuntu on windows"
+https://stackoverflow.com/questions/41225711/wsl-run-linux-from-windows-without-spawning-a-cmd-window
