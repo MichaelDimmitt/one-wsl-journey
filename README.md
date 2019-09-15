@@ -14,8 +14,16 @@ C:\Users\%USERNAME%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 
 ## git bash terminal on wsl
 https://www.reddit.com/r/bashonubuntuonwindows/comments/8b0qhl/can_i_use_gitbashs_terminal_for_wsl/
+```
 "C:\Program Files\Git\usr\bin\mintty.exe" --exec /usr/bin/winpty "C:\Windows\System32\bash.exe" -c "cd ~; $SHELL --login -i"
+```
+```
+echo %cd%
+```
 
+```bash
+pwd2=$PWD "c/Program Files/Git/usr/bin/mintty.exe" --exec /usr/bin/winpty "c/Windows/System32/bash.exe" -c "cd $pwd2; $SHELL --login -i"
+```
 ## troubleshoot a permission issue for bash
 https://stackoverflow.com/a/48841189/5283424
 ```
