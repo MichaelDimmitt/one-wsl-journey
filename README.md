@@ -22,3 +22,8 @@ https://stackoverflow.com/a/48841189/5283424
 sudo umount /mnt/c
 sudo mount -t drvfs C: /mnt/c -o metadata
 ```
+
+## an attempt to gain powerline fonts on windows subsystem linux.
+https://medium.com/@jrcharney/bash-on-ubuntu-on-windows-the-almost-complete-set-up-1dd3cb89b794
+
+now the only question is ... what are powerline fonts and which should I use?
